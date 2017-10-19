@@ -1,0 +1,24 @@
+{
+  "name": "import-china-area-data",
+  "version": "1.0.0",
+  "description": "跟您想的不太一样，这并不是一个真正的省市区划的库，这个库是用来将[`airyland`]( https://github.com/airyland)的[`china-area-data`]( https://github.com/airyland/china-area-data)倒入到MySQL数据库的。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harde/china-area-data.git"
+  },
+  "author": "harde<harde.liu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harde/china-area-data/issues"
+  },
+  "homepage": "https://github.com/harde/china-area-data#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mysql": "^2.15.0",
+    "request": "^2.83.0"
+  }
+}
